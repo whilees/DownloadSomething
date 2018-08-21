@@ -19,8 +19,8 @@ header = {
 r = load.Ziroom(header)
 ### login
 loginDict = {
-    'j_username': 'V20150309013006',
-    'j_password': 'V201503090',
+    'j_username': 'username',
+    'j_password': 'password',
 }
 r.access('http://vendor.ziroom.com/security/security!login.action', loginDict)
 
