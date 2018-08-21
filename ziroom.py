@@ -27,9 +27,9 @@ r.access('http://vendor.ziroom.com/security/security!login.action', loginDict)
 ### choose city
 cityDict = {
     'territoryId': '50',
-    'username': 'V20150309013006',
+    'username': 'username',
 }
-r.access('http://vendor.ziroom.com/security/security!selectCity.action?territoryId=50&username=V20150309013006', cityDict)
+r.access('http://vendor.ziroom.com/security/security!selectCity.action?territoryId=50&username=username', cityDict)
 
 ### getUrllist
 def getpage(_page):
